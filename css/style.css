@@ -1,0 +1,82 @@
+.container {
+    width: min(100%, 1440px);
+    margin: auto;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 34px 72px;
+    background: #2E0230;
+}
+
+.app-header-search-mini {
+    color: white;
+    font-size: 32px;
+    display: none;
+}
+
+.app-header-search-form {
+    width: 560px;
+    position: relative;
+
+}
+
+.app-header-search-input {
+    border-radius: 8px;
+    border: 1px solid rgba(176, 82, 181, 0.79);
+    box-shadow: 0px -2px 5px 0px rgba(241, 172, 238, 0.5);
+    background: transparent;
+    width: 100%;
+    padding: 14px 64px 15px 16px;
+    color: rgba(158, 141, 158, 0.71);
+
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.app-header-search-button {
+    position: absolute;
+    right: 0;
+    border-radius: 0px 8px 8px 0px;
+    box-shadow: 0px -1px 5px 0px #F1ACEE;
+    background: #B052B5;
+    height: 100%;
+    padding-inline: 16px;
+    font-size: 16px;
+    color: white;
+    border: none;
+}
+
+.app-header-login_cart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.app-header-button-login {
+    border-radius: 8px;
+    border: 1px solid #F30AEA;
+    padding: 8px 16px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    background-color: transparent;
+}
+
+.app-header-button-login-icon {
+    display: none;
+}
+
+.app-header-button-cart {
+    border-radius: 8px;
+    background: #F30AEA;
+    padding: 13px;
+    font-size: 16px;
+    color: white;
+    border: none;
+}

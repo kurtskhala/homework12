@@ -1,0 +1,13 @@
+@media (max-width: 955px) {
+    /* header */
+    header {
+        padding-inline: 40px;
+    }
+    .app-header-search-form {
+        display: none;
+    }
+
+    .app-header-search-mini {
+        display: block;
+    }
+}
