@@ -1,0 +1,18 @@
+@media (max-width: 715px) {
+    /* section */
+    .app-section {
+        padding: 32px 14px;
+    }
+
+    .app-section-content-container {
+        padding-inline: 6px;
+    }
+
+    .app-section-form-name_email {
+        column-gap: 8px;
+    }
+
+    .app-section-form-textarea {
+        height: 104px;
+    }
+}

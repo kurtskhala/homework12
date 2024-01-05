@@ -19,8 +19,8 @@
                 <img src="./images/logo.svg" alt="logo" class="app-header-logo">
             </a>
 
-            <form class="app-header-search-form">
-                <input class="app-header-search-input" type="text" placeholder="What are you looking for?"></input>
+            <form name="searchForm" class="app-header-search-form">
+                <input name="search" class="app-header-search-input" type="text" placeholder="What are you looking for?">
                 <button class="app-header-search-button" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
 
@@ -36,8 +36,45 @@
                 <button class="app-header-button-cart"><i class="fa-solid fa-cart-shopping"></i></button>
             </div>
         </header>
-        <section>
+        <section class="app-section">
+            <div class="app-section-content-container">
+                <h3 class="app-section-header">CONTACT US</h3>
+                <form class="app-section-form" name="contactUs">
+                    <div class="app-section-form-name_email">
+                        <input name="name" class="app-section-form-name app-section-form-input" type="text" placeholder="Name">
+                        <input name="email" class="app-section-form-name app-section-form-input" type="email" placeholder="Email">
+                    </div>
+                    <div class="app-section-form-radios-container">
+                        <label class="app-section-form-header" for="questions">I have a delivery question about my order</label>
+                        <div class="app-section-form-radio-container">
+                            <input class="app-section-form-radio" name="faq" id="recieve" type="radio" value="orderNotRecieved">
+                            <label class="app-section-form-radio-label" for="recieve">I did not receive my order</label>
+                        </div>
+                        <div class="app-section-form-radio-container">
+                            <input class="app-section-form-radio" name="faq" id="incorrect" type="radio" value="orderIncorrect">
+                            <label class="app-section-form-radio-label" for="incorrect">My order is incorrect or arrived damaged</label>
+                        </div>
+                        <div class="app-section-form-radio-container">
+                            <input class="app-section-form-radio" name="faq" id="cancel" type="radio" value="orderCanceled">
+                            <label class="app-section-form-radio-label" for="cancel">Cancel my order</label>
+                        </div>
+                        <div class="app-section-form-radio-container">
+                            <input class="app-section-form-radio" name="faq" id="change" type="radio" value="addressChange">
+                            <label class="app-section-form-radio-label" for="change">Change my shipping address</label>
+                        </div>
+                    </div>
+                    <div class="app-section-form-textarea-container">
+                        <label class="app-section-form-header" for="message">Please provide more details below.</label>
+                        <textarea class="app-section-form-textarea" id="message" placeholder="Message"></textarea>
+                    </div>
 
+                    <div class="app-section-form-checkbox-container">
+                        <input class="app-section-form-checkbox" type="checkbox" name="recieveNewsletter" value="receive" id="recieveNewsletter">
+                        <label class="app-section-form-header" for="recieveNewsletter">I want to receive the newsletter </label>
+                    </div>
+                    <button class="app-section-form-button" type="submit">SEND</button>
+                </form>
+            </div>
         </section>
     </div>
 </body>

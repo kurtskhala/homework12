@@ -1,3 +1,15 @@
+@media (max-width: 1000px) {
+    /* section */
+    .app-section {
+        padding: 64px 40px;
+    }
+
+    .app-section-content-container {
+        padding-inline: 145px;
+    }
+}
+
+
 @media (max-width: 955px) {
     /* header */
     header {
